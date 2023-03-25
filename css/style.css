@@ -163,7 +163,20 @@ header .icons #bars{
     padding: 4rem 0;
     line-height: 1.5;
 }
-
+.btn{
+    margin-top: 1rem;
+    display: inline-block;
+    font-size: 1.7rem;
+    color: #fff;
+    background-color: var(--blue);
+    border-radius: .5rem;
+    cursor: pointer;
+    padding: .8rem 3rem;
+}
+.btn:hover{
+    background-color: var(--green);
+    letter-spacing: .1rem;
+}
 
 
 
