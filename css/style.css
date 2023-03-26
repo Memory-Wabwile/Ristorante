@@ -474,7 +474,7 @@ header .icons #bars{
 /* media querries */
 @media (max-width:991px){
     html{
-        font-size: 50%;
+        font-size: 55%;
     }
     header{
         padding: 1rem 2rem;
@@ -482,9 +482,7 @@ header .icons #bars{
     section{
         padding:2rem;
     }
-    .order form .inputBox .input{
-        width: 100%;
-    }
+
 }
 
 @media (max-width:768px){
@@ -523,9 +521,18 @@ header .icons #bars{
         font-size: 5rem;
     }
  
+}
+
+@media (max-width:450px){
+    html{
+        font-size: 50%;
+    }
     .dishes .box-container .box img{
         width: 100%;
         height: auto;
+    }
+    .order form .inputBox .input{
+        width: 100%;
     }
 }
 
