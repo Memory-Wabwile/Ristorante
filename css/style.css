@@ -426,7 +426,7 @@ header .icons #bars{
 
 /* order section  */
 .order form{
-    width: 90%;
+    max-width: 90%;
     border-radius: .5rem;
     box-shadow: var(--box-shadow);
     border: .1rem solid rgba(0,0,0,.2);
@@ -448,7 +448,24 @@ header .icons #bars{
     font-size: 1.5rem;
     color: var(--light-color);
 }
-
+.order form .inputBox .input input,
+.order form .inputBox .input textarea{
+    background-color: #eee;
+    border-radius: .5rem;
+    padding: 1rem;
+    font-size: 1.6rem;
+    color: var(--blue);
+    text-transform: none;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+.order form .inputBox .input textarea{
+    height: 20rem;
+    resize: none;
+}
+.order form .btn{
+    margin-top: 0;
+}
 
 
 
@@ -464,6 +481,9 @@ header .icons #bars{
     }
     section{
         padding:2rem;
+    }
+    .order form .inputBox .input{
+        width: 100%;
     }
 }
 
