@@ -467,6 +467,13 @@ header .icons #bars{
     margin-top: 0;
 }
 
+/* footer section  */
+.footer .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, min-max(25rem, 1fr));
+    gap: 1.5rem;
+}
+
 
 
 
